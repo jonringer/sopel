@@ -20,7 +20,7 @@ from sopel.formatting import bold
 from sopel.module import example, commands, rule, priority
 from sopel.modules.url import find_title
 from sopel.tools import Ddict, Identifier
-from sopel.web import quote
+from sopel.tools.web import quote
 
 
 class MeetbotSection(StaticSection):
